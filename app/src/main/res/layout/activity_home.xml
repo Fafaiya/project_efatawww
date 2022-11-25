@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#800000"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#CC9900"
+            android:gravity="center"
+            android:text="KOMUNITAS DIFABEL EFATA"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/logo2"/>
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EFATA Rumah Pintar Gratis Bagi Anak Kebutuhan Khusus"
+                android:textColor="@color/black"/>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Narasumber: Windy Arya Dewi"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jadwal Kegiatan Komunitas Difabel EFATA:"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paud INKLUSI: Rabu dan Jumat pagi"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tari dan Modeling: Jumat sore"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melukis: Sabtu sore"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="NB: Jadwal dapat berubah sewaktu-waktu"
+                android:textColor="#FF4000"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEJARAH BERDIRINYA RUMAH PINTAR EFATA"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="Berawal dari ungkapan rasa syukur terhadap Tuhan Yang Maha Esa atas karunianya terhadap anak saya yang telah memanggilku MAMA. Pada tanggal 13 juli 2013 didirikan efata, dan Arti dari Efata sendiri diambil dari bahasa Ibrani yang berarti “Terbukalah” seperti keinginan Windy bahwa Rumah Pintar Efata terbuka bagi Siapa saja yang ingin bergabung dan agar masyarakat umum bisa terbuka terhadap mereka yang berkebutuhan khusus. "
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanggar Efata memfasilitasi kegiatan melukis, menari, musik angklung, cheersleader, dan modeling untuk anak-anak gangguan pendengaran secara CUMA-CUMA (gratis), dengan semangat berbagi dan berkarya dengan KASIH saya percaya anak saya dan teman-temannya akan menjadi BINTANG. Jumlah murid di Rumah pintar EFATA berjumlah 40 anak dari usia 4-18 tahun, mereka berlatih di sanggar EFATA pada sore hari sedangkan pada pagi harinya mereka bersekolah di sekolah masing-masing."
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kami semua adalah sama, di EFATA selalu menanamkan rasa saling memiliki, menyayangi, dan saling menghargai."
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VISI"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menjadikan anak-anak berkebutuhan khusus memiliki keunggulan sesuai talentanya masing-masing, mandiri, dan memiliki jiwa kewirausahaan."
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MISI"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Memfasilitasi pendidikan seni dan keterampilan sesuai dengan minat dan bakat anak secara cuma-cuma"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Menjadikan Rumah Pintar sebagai wadah kreatifitas anak-anak berkebutuhan khusus sekaligus sebagai ajang sharing para orang tua yang tergabung di Rumah Pintar"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Menerapkan sifat kekeluargaan dan melibatkan peran serta orang tua untuk kemajuan bersama anak-anak berkebutuhan khusus"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALAM EFATA!!!"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
